@@ -54,6 +54,11 @@ spring.datasource.username=postgres
 spring.datasource.password=yourpassword
 
 openweather.api.key=your_openweather_api_key
+
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.format_sql=true
+
 ```
 
 ### 3. Run the Application
